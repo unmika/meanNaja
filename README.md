@@ -1,4 +1,4 @@
-#restaurant-web
+# restaurant-web
 
 ## Clone
 ```
