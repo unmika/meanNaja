@@ -73,7 +73,6 @@ class Promotion extends Component {
 
   render() {
     const { promotions } = this.props;
-    console.log(promotions)
     return (
       <div>
         <Header page={"Promotion"}/>
@@ -89,7 +88,7 @@ class Promotion extends Component {
       </div>
       <Row className="justify-content-center">
        {
-         promotions.lenght !== 0 ? promotions.map((item)=>{
+         promotions.map((item)=>{
          const { id, title, code } = item;
          return(
           <div key={id} className="card border-warning m-3" style={{ "maxWidth": "18rem" }}>
@@ -112,9 +111,7 @@ class Promotion extends Component {
             </div>
           </div>
          );
-       }) : 
-       <div>
-       </div>
+       })
       }
       </Row>
       <ModalPromo

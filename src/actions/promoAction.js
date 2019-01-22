@@ -20,7 +20,7 @@ import {
         }).catch((e)=>{
             dispatch({
                 type: GET_LIST_PROMOTIONS_ERR,
-                payload: 'get list promotion error'
+                payload: []
             });
         })
     }
