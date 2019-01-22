@@ -1,0 +1,27 @@
+.bg-nav {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.f-s-2 {
+    font-size: 2rem;
+}
+
+.h-40 {
+    height: 30vh;
+}
+
+.width-30 {
+    width: 30rem;
+}
+
+.width-20 {
+    width: 12rem;
+}
+
+.m-t-10 {
+    margin-top: 10rem;
+}
+
+.m-t-5 {
+    margin-top: 5rem;
+}
